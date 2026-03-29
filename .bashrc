@@ -13,6 +13,9 @@ eval eval -- "$(/usr/bin/starship init bash --print-full-init)"
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 
+# zoxide
+eval "$(zoxide init bash)"
+
 # exports
 export EDITOR=nvim
 
