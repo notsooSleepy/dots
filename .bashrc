@@ -10,6 +10,9 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 eval eval -- "$(/usr/bin/starship init bash --print-full-init)"
 
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+
 # exports
 export EDITOR=nvim
 
