@@ -52,6 +52,7 @@ style = "#a48cf2 bold"
 format = '[$symbol$branch·]($style)'
 
 [git_status]
+# disabled = true
 style = "#a48cf2 bold"
 ahead = '⇡${count}'
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
@@ -127,4 +128,3 @@ disabled = false
 time_format = "%T"
 format = "[$time]($style) "
 style = "bold #a48cf2"
-

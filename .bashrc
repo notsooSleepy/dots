@@ -16,9 +16,6 @@ eval "$(fzf --bash)"
 # zoxide
 eval "$(zoxide init bash)"
 
-# exports
-export EDITOR=nvim
-
 # yazi wrapper
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -28,7 +25,4 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/sleepy/.lmstudio/bin"
-# End of LM Studio CLI section
 
