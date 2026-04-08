@@ -51,7 +51,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Tell Antigen that you're done.
 antigen apply
 
-LS_COLORS="$LS_COLORS:di=1;104:ln=96:ex=93:cd=33"
+LS_COLORS="$LS_COLORS:di=7;92;40:fi=94:ln=95:ex=4;91:cd=33"
 export LS_COLORS
 
 # oh my posh
